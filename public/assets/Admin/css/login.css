@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap');
+
+* {
+    font-family: 'Poppins',sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f8ea; /* Background color */
+}
+
+.container {
+    background-color:#b99976;; /* Form background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 350px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+.login-form label{
+    color:white;
+}
+
+
+
+.login-form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.sign-up {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.sign-up a {
+    color: white; /* Link color */
+}
+
+.container h3{
+    color: white;
+}
+
+button {
+    background-color: #664229;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    margin-left:140px;
+    
+}
+
